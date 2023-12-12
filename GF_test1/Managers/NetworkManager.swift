@@ -15,11 +15,8 @@ class NetworkManager {
     
     let baseUrl = "https://api.github.com/users/"
     let cache   =  NSCache<NSString,UIImage>()
-    
-    
     private init() {}
-    
-    
+
     func getFollowers(for username: String, page: Int, completed: @escaping(Result<[Follower], GFError>) -> Void) {
         
         
