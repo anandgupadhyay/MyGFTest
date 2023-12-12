@@ -16,7 +16,6 @@ class NetworkManager {
     let baseUrl = "https://api.github.com/users/"
     let cache   =  NSCache<NSString,UIImage>()
     
-    /////https://api.github.com/users/sallen0400
     
     private init() {}
     
